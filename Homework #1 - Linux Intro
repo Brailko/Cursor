@@ -65,7 +65,7 @@ cat hw.txt
 12. Change the permissions to 0 for current user and try to Display contents again.
 
 chmod 064 hw.txt
-sudo cat hw.txt
+cat hw.txt
 cat: hw.txt: Permission denied
 
 13. Change the permission to rwx for current user only and try again.
